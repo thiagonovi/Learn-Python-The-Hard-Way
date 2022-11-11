@@ -1,0 +1,22 @@
+line = "\n"
+print(True and True, True, line,
+False and True, False, line,
+1 == 1 and 2 == 1, False, line,
+"test" == "test", True, line,
+1 == 1 or 2 != 1, True, line,
+True and 1 == 1, True, line,
+False and 0 != 0, False, line,
+True or 1 == 1, True, line,
+"test" == "testing", False, line,
+1 != 0 and 2 == 1, False, line,
+"test" != "testing", True, line,
+"test" == 1, False, line,
+not (True and False), True, line,
+not (1 == 1 and 0 != 1), False, line,
+not (10 == 1 or 1000 == 1000), False, line,
+not (1 != 10 or 3 == 4), False, line,
+not ("testing" == "testing" and "Zed" == "Cool Guy"), True, line,
+1 == 1 and (not ("testing" == 1 or 1 == 0)), True, line,
+"chunky" == "bacon" and (not (3 == 4 or 3 ==3)), False, line,
+3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")), False 
+)

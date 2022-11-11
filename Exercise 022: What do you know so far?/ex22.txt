@@ -1,0 +1,38 @@
+print()                   print a string on the screen
+#                         hash: creates a commentary
++                         plus sign: adds two numbers
+-                         minus sign: subtracts two numbers
+/                         slash: divides two numbers
+*                         asterisk: multiply two numbers
+%                         module: the rest of the division
+<                         minor than
+>                         bigger than
+<=                        minor or equal
+>=                        bigger or equal
+=                         equal: assign something to a name/variable
+"" ''                     quotes: make a string
+f""                       make a format string
+{}                        brackets: creates a space for variables in a format string
+round()                   round: round numbers
+.format()                 another way to write a format string
+""" """                   triple comma: multi-line strings
+\n                        slash n: jumps to the next line on a string
+\t                        slash tab: four spaces on a string
+\\                        double slash: slash on a string
+end = ' '                 ends the string with a space
+input()                   takes input from the user
+from                      tells what module the program will use
+sys                       System-specific parameters and functions module
+import                    imports something from a module
+argv                      argument variable: takes input on the running code
+open()                    open a file
+.read()                   read a file
+close()                   close a file
+open('w')                 open a file to truncate it
+.write()                  write on a file
+os.path                   Common pathname manipulations¶
+exists                    defines if a file exists in a directory
+len()                     measure the lenght of a text
+def                       creates a user-built functions
+seek(0)                   goes to the first line of a text file
+readline()                read a line of a text and jump to the next.
