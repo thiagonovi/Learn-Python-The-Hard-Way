@@ -4,8 +4,9 @@ books = []
 print("How many books do you have on your shelf?")
 number_books = input("> ")
 
-while len(books) + 1 <= int(number_books):
-    count = len(books) + 1
+count = len(books) + 1
+
+while count <= int(number_books):
     if count == 1:
         ordinal = "st"
     elif count == 2:
